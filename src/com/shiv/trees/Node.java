@@ -3,6 +3,7 @@ package com.shiv.trees;
 public class Node {
 	
 	int value;
+	String strVal;
 	Node left;
 	Node right;
 	
@@ -14,6 +15,16 @@ public class Node {
 		this.right = right;
 	}
 	
+	
+	public Node(int value, String strVal, Node left, Node right) {
+		super();
+		this.value = value;
+		this.strVal = strVal;
+		this.left = left;
+		this.right = right;
+	}
+
+
 	public Node() {
 	}
 	
@@ -40,9 +51,17 @@ public class Node {
 	public void setRight(Node right) {
 		this.right = right;
 	}
+	
+	public String getStrVal() {
+		return strVal;
+	}
+
+	public void setStrVal(String strVal) {
+		this.strVal = strVal;
+	}
 
 	@Override
 	public String toString() {
-		return "Node [value=" + value + ", left=" + left + ", right=" + right + "]";
+		return "Node [value=" + value + ", strVal=" + strVal + ", left=" + left + ", right=" + right + "]";
 	}
 }
