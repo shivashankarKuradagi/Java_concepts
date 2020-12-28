@@ -7,5 +7,10 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/shivshankar/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.10.2/a079fc39ccc3de02acdeb7117443e5d9bd431687/joda-time-2.10.2.jar" sourcepath="/home/shivshankar/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.10.2/fbf6cbd712c30629c77cefa42fe15ca888e609d5/joda-time-2.10.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

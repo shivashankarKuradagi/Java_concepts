@@ -2,15 +2,21 @@ package com.shiv.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
+
+import org.joda.time.LocalDate;
 
 public class ThreeSum {
 
 	public static void main(String[] args) {
+		
+		Date minusFourDay = LocalDate.now().toDateTimeAtStartOfDay().minusDays(4).toDate();
+		System.out.println("minusFourDay : " + minusFourDay);
 
 		int[] temp =  new int[]{-1,2,1,-4,-4, 0};
-		//System.out.println(threeSum(temp));
-		//System.out.println(threeSumClosest(temp, 1));
+		System.out.println(threeSum(temp));
+		System.out.println(threeSumClosest(temp, 1));
 		int[] nums =  new int[]{1,1,1,2, 2,3};
 		removeDuplicates(nums);
 	}

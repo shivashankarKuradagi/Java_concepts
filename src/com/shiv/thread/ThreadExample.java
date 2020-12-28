@@ -11,8 +11,6 @@ public class ThreadExample {
 
 			synchronized (this) {
 			for (int i = 0; i < 100000; i++) {
-				
-
 				count++;
 			}
 			}
