@@ -3,9 +3,9 @@ package com.shiv.trees;
 public class Node {
 	
 	int value;
-	String strVal;
-	Node left;
-	Node right;
+	public String strVal;
+	public Node left;
+	public Node right;
 	
 	
 	
